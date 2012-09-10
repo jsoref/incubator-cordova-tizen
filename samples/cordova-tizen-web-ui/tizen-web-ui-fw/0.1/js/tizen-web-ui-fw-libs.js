@@ -4035,7 +4035,7 @@ $.widget( "mobile.page", $.mobile.widget, {
 					event.preventDefault();
 					return;
 				} else if ( path.isPath( href ) ) {
-					//we have apath so make it the href we want to load.
+					//we have a path so make it the href we want to load.
 					href = path.makeUrlAbsolute( href, baseUrl );
 				} else {
 					//we have a simple id so use the documentUrl as its base.
