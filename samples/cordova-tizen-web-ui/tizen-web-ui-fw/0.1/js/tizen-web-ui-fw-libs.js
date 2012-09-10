@@ -4254,7 +4254,7 @@ $.widget( "mobile.page", $.mobile.widget, {
 			// propulate the hash when its not available
 			state = self.state();
 
-			// make the hash abolute with the current href
+			// make the hash absolute with the current href
 			href = $.mobile.path.makeUrlAbsolute( hash, resolutionUrl );
 
 			if ( isPath ) {
