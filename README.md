@@ -98,7 +98,7 @@ a tizen SDK eclipse project (to be imported using Eclipse import wizard)
 
 taken from after 2.0.0 tag
 
-the cordova Legacy App slightly adapte to tizen :
+the cordova Legacy App slightly adapted to tizen :
     notifications/index.html is loading the tizen.css file for notifications
     (waiting to generate this from the source code)
     
