@@ -8814,7 +8814,7 @@ $("<div><div id='hsvpicker' class='ui-hsvpicker'>" +
  *			data-controls : If this value is 'true', widget will use belonging controller.
  *				If this value is 'false', widget will use browser`s controller.
  *				Default value is 'true'.
- *			data-fullscreen : Set a status that fullscreen when inital start.
+ *			data-fullscreen : Set a status that fullscreen when initial start.
  *				Default value is 'false'.
  *
  * APIs:
@@ -12876,7 +12876,7 @@ $("<div><div id='outer' class='ui-btn ui-btn-corner-all ui-btn-inline ui-shadow 
 			this._ui.activeBackground.find( "*" ).css( "opacity", 0.0);
 			this._ui.refButton.add( this._ui.refButton.find( "*" )).css( "opacity", 0.0);
 			this._ui.realButton.add( this._ui.realButton.find( "*" )).css( "opacity", 0.0);
-			// ... except the buttons that display the inital position of the switch
+			// ... except the buttons that display the initial position of the switch
 			this._ui.initButtons
 				.add( this._ui.initButtons.find( "*" ))
 				.add( this._ui.fButton.find( "*" ))
