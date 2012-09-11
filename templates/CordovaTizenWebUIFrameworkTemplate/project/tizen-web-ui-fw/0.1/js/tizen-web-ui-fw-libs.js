@@ -2762,7 +2762,7 @@ $.widget( "mobile.page", $.mobile.widget, {
 					};
 			},
 
-			//Turn relPath into an asbolute path. absPath is
+			//Turn relPath into an absolute path. absPath is
 			//an optional absolute path which describes what
 			//relPath is relative to.
 			makePathAbsolute: function( relPath, absPath ) {
