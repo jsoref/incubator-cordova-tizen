@@ -3707,7 +3707,7 @@ $.widget( "mobile.page", $.mobile.widget, {
 		// If the caller passed us a url, call loadPage()
 		// to make sure it is loaded into the DOM. We'll listen
 		// to the promise object it returns so we know when
-		// it is done loading or if an error ocurred.
+		// it is done loading or if an error occurred.
 		if ( typeof toPage == "string" ) {
 			$.mobile.loadPage( toPage, settings )
 				.done(function( url, options, newPage, dupCachedPage ) {
