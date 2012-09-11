@@ -1044,10 +1044,10 @@ a.ui-link-inherit {
 .ui-icon-ctrlbar-songs,
 .ui-icon-ctrlbar-stop_watch,
 .ui-icon-ctrlbar-store,
-.ui-icon-ctrlbar-synchronise_start_sync,
-.ui-icon-ctrlbar-synchronise_stop_01,
-.ui-icon-ctrlbar-synchronise_stop_02,
-.ui-icon-ctrlbar-synchronise_stop_03,
+.ui-icon-ctrlbar-synchronize_start_sync,
+.ui-icon-ctrlbar-synchronize_stop_01,
+.ui-icon-ctrlbar-synchronize_stop_02,
+.ui-icon-ctrlbar-synchronize_stop_03,
 .ui-icon-ctrlbar-view_result,
 .ui-icon-ctrlbar-tag,
 .ui-icon-ctrlbar-temp,
@@ -1318,20 +1318,20 @@ a.ui-link-inherit {
 .ui-icon-ctrlbar-store {
   background-image: url(images/controlbar/01_controlbar_icon_store.png);
 }
-.ui-icon-ctrlbar-synchronise_start_sync {
-  background-image: url(images/controlbar/01_controlbar_icon_synchronise_start_sync.png);
+.ui-icon-ctrlbar-synchronize_start_sync {
+  background-image: url(images/controlbar/01_controlbar_icon_synchronize_start_sync.png);
 }
-.ui-icon-ctrlbar-synchronise_stop_01 {
-  background-image: url(images/controlbar/01_controlbar_icon_synchronise_stop_01.png);
+.ui-icon-ctrlbar-synchronize_stop_01 {
+  background-image: url(images/controlbar/01_controlbar_icon_synchronize_stop_01.png);
 }
-.ui-icon-ctrlbar-synchronise_stop_02 {
-  background-image: url(images/controlbar/01_controlbar_icon_synchronise_stop_02.png);
+.ui-icon-ctrlbar-synchronize_stop_02 {
+  background-image: url(images/controlbar/01_controlbar_icon_synchronize_stop_02.png);
 }
-.ui-icon-ctrlbar-synchronise_stop_03 {
-  background-image: url(images/controlbar/01_controlbar_icon_synchronise_stop_03.png);
+.ui-icon-ctrlbar-synchronize_stop_03 {
+  background-image: url(images/controlbar/01_controlbar_icon_synchronize_stop_03.png);
 }
-.ui-icon-ctrlbar-synchronise_view_result {
-  background-image: url(images/controlbar/01_controlbar_icon_synchronise_view_result.png);
+.ui-icon-ctrlbar-synchronize_view_result {
+  background-image: url(images/controlbar/01_controlbar_icon_synchronize_view_result.png);
 }
 .ui-icon-ctrlbar-tag {
   background-image: url(images/controlbar/01_controlbar_icon_tag.png);
