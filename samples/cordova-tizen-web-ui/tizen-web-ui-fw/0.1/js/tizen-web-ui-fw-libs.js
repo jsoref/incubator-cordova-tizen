@@ -6489,7 +6489,7 @@ $( document ).bind( "pagecreate create", function( e ){
 				options = this._selectOptions(),
 				selected = this.selected(),
 				// return an array of all selected index's
-				indicies = this.selectedIndices();
+				indices = this.selectedIndices();
 
 				if (  forceRebuild || this._isRebuildRequired() ) {
 					self._buildList();
@@ -6503,7 +6503,7 @@ $( document ).bind( "pagecreate create", function( e ){
 					.attr( "aria-selected", false )
 					.each(function( i ) {
 
-						if ( $.inArray( i, indicies ) > -1 ) {
+						if ( $.inArray( i, indices ) > -1 ) {
 							var item = $( this );
 
 							// Aria selected attr
