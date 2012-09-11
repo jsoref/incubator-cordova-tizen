@@ -7912,7 +7912,7 @@ $("<div><div id='hsvpicker' class='ui-hsvpicker'>" +
 //   Set to true to enable a scrollview on the
 //   container. If false, children will be clipped if
 //   they fall outside the edges of the container after
-//   layouting.
+//   layout.
 //
 //   {Boolean} showScrollBars (default=true)
 //   Set to false to hide scrollbars on the container's scrollview.
