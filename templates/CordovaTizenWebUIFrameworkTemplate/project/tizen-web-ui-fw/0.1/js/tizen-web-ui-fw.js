@@ -8463,7 +8463,7 @@ $("<div><div id='hsvpicker' class='ui-hsvpicker'>" +
 		// create a textbutton and append this button to parent layer.
 		// @param arg1 : string
 		// @param arg2 : index
-		_addTextBlock : function ( messages, blcokIndex ) {
+		_addTextBlock : function ( messages, blockIndex ) {
 			if ( arguments.length === 0 ) {
 				return;
 			}
@@ -8475,7 +8475,7 @@ $("<div><div id='hsvpicker' class='ui-hsvpicker'>" +
 			var self = this,
 				$view = self.element,
 				content = messages,
-				index = blcokIndex,
+				index = blockIndex,
 				blocks = null,
 				dataBlock = null,
 				displayText = null,
