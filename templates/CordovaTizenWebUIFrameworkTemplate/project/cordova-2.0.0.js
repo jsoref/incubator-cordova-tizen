@@ -6580,7 +6580,7 @@ module.exports = {
             beepSound.cpt = 0;
 
             beepSound.addEventListener('canplay', function () {
-                console.log("notification:beepSound() - canpay CB");
+                console.log("notification:beepSound() - canplay CB");
                 this.play();
             });
 
