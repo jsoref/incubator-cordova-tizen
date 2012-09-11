@@ -6209,7 +6209,7 @@ function range( low, high, step ) {
 			splitIcon: "arrow-r",
 			splitTheme: "b",
 			inset: false,
-			id:	"",						/* Extendable list UL elemet's ID */
+			id:	"",						/* Extendable list UL element's ID */
 			extenditems: 50,			/* Number of append items */
 			childSelector: " li",		/* To support swipe list */
 			dbtable: "",
@@ -13564,7 +13564,7 @@ $("<div><div id='outer' class='ui-btn ui-btn-corner-all ui-btn-inline ui-shadow 
 			splitIcon: "arrow-r",
 			splitTheme: "b",
 			inset: false,
-			id:	"",					/* Virtual list UL elemet's ID */
+			id:	"",					/* Virtual list UL element's ID */
 			childSelector: " li",	/* To support swipe list */
 			dbtable: "",
 			template : "",
