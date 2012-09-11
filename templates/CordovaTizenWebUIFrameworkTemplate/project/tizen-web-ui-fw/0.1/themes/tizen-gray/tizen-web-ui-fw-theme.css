@@ -11787,7 +11787,7 @@ div.pagecontrol > div.page_n_10 {
 /***************************************************************************
                    multimediaview
 ***************************************************************************/
-/* @selector-size should be an odd number, in order to pixel-perfectly center on a given colour */
+/* @selector-size should be an odd number, in order to pixel-perfectly center on a given color */
 .ui-colorpicker {
   display: table;
 }
