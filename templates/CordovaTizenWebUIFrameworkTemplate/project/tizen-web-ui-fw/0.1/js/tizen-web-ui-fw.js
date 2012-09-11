@@ -14468,7 +14468,7 @@ Globalize.cultures[ "default" ] = {
 				namesShort: [ "Su", "Mo", "Tu", "We", "Th", "Fr", "Sa" ]
 			},
 			months: {
-				// full month names (13 months for lunar calendards -- 13th month should be "" if not lunar)
+				// full month names (13 months for lunar calendars -- 13th month should be "" if not lunar)
 				names: [ "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December", "" ],
 				// abbreviated month names
 				namesAbbr: [ "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec", "" ]
