@@ -1003,7 +1003,7 @@ $.Widget.prototype = {
 
 })( jQuery );
 /*
-* widget factory extentions for mobile
+* widget factory extensions for mobile
 */
 
 (function( $, undefined ) {
