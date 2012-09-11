@@ -5341,7 +5341,7 @@ jQuery.extend( jQuery.mobile.tizen,
 					$(div).append( tpl.replace('%1', 'era').replace('%2', this.calendar.eras.name) );
 					break;
 				default : // string or any non-clickable object
-					$(div).append( tpl.replace('%1', 'seperator').replace('%2', pat) );
+					$(div).append( tpl.replace('%1', 'separator').replace('%2', pat) );
 					break;
 				}
 			}
@@ -5609,7 +5609,7 @@ jQuery.extend( jQuery.mobile.tizen,
 				return;
 			}
 
-			target.not('.ui-datefield-seperator').addClass('ui-datefield-selected');
+			target.not('.ui-datefield-separator').addClass('ui-datefield-selected');
 
 			pat = target.jqmData('pat');
 			data = obj._populateDataSelector( field[1], pat, obj );
@@ -15759,7 +15759,7 @@ Globalize.parseFloat = function( value, radix, cultureSelector ) {
 	if ( value.indexOf(culture.numberFormat.currency.symbol) > -1 ) {
 		// remove currency symbol
 		value = value.replace( culture.numberFormat.currency.symbol, "" );
-		// replace decimal seperator
+		// replace decimal separator
 		value = value.replace( culture.numberFormat.currency["."], culture.numberFormat["."] );
 	}
 
