@@ -11862,7 +11862,7 @@ $("<div><div id='outer' class='ui-ctxpopup'>" +
 				focusedEl.addClass( "ui-focus" );
 			} );
 
-			// Input Blured
+			// Input Blurred
 			/* When user touch on page, it's same to blur */
 			$( "div.input-search-bar" ).tap( function ( event ) {
 				input.focus();
