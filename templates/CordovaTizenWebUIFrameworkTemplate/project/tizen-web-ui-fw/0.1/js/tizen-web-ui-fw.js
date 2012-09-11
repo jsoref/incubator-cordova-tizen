@@ -4748,7 +4748,7 @@ jQuery.extend( jQuery.mobile.tizen,
 	function updateWrapped( options, wrapped ) {
 		// Build the wrapped content.
 		options._wrap = build( options, true,
-			// Suport imperative scenario in which options.wrapped can be set to a selector or an HTML string.
+			// Support imperative scenario in which options.wrapped can be set to a selector or an HTML string.
 			jQuery.isArray( wrapped ) ? wrapped : [htmlExpr.test( wrapped ) ? wrapped : jQuery( wrapped ).html()]
 		).join("");
 	}
