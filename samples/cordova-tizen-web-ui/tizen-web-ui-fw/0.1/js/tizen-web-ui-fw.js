@@ -13678,7 +13678,7 @@ $("<div><div id='outer' class='ui-btn ui-btn-corner-all ui-btn-inline ui-shadow 
 				$el,
 				transformValue,
 				curWindowTop,
-				cur_num_top_itmes;
+				cur_num_top_items;
 
 			/* Text & image src replace function */
 			_replace = function ( oldItem, newItem, key ) {
@@ -13792,23 +13792,23 @@ $("<div><div id='outer' class='ui-btn ui-btn-corner-all ui-btn-inline ui-shadow 
 				curWindowTop = $( window ).scrollTop() - LINE_H;
 			}
 
-			cur_num_top_itmes = $( o.id + o.childSelector ).filter( function () {
+			cur_num_top_items = $( o.id + o.childSelector ).filter( function () {
 				return (parseInt( $( this ).css( "top" ), 10 ) < curWindowTop );
 			} ).size();
 
-			if ( num_top_items < cur_num_top_itmes ) {
+			if ( num_top_items < cur_num_top_items ) {
 				direction = SCROLL_DOWN;
-				velocity = cur_num_top_itmes - num_top_items;
-				num_top_items = cur_num_top_itmes;
-			} else if ( num_top_items > cur_num_top_itmes ) {
+				velocity = cur_num_top_items - num_top_items;
+				num_top_items = cur_num_top_items;
+			} else if ( num_top_items > cur_num_top_items ) {
 				direction = SCROLL_UP;
-				velocity = num_top_items - cur_num_top_itmes;
-				num_top_items = cur_num_top_itmes;
+				velocity = num_top_items - cur_num_top_items;
+				num_top_items = cur_num_top_items;
 			}
 
 			// Move items
 			if ( direction == SCROLL_DOWN ) {
-				if ( cur_num_top_itmes > o.page_buf ) {
+				if ( cur_num_top_items > o.page_buf ) {
 					if ( last_index + velocity > TOTAL_ITEMS ) {
 						velocity = TOTAL_ITEMS - last_index - 1;
 					}
@@ -13828,7 +13828,7 @@ $("<div><div id='outer' class='ui-btn ui-btn-corner-all ui-btn-inline ui-shadow 
 					$( document ).unbind( "touchstart.virtuallist" );
 				}
 			} else if ( direction == SCROLL_UP ) {
-				if ( cur_num_top_itmes <= o.page_buf ) {
+				if ( cur_num_top_items <= o.page_buf ) {
 					if ( first_index < velocity ) {
 						velocity = first_index;
 					}
