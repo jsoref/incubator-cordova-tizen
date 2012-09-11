@@ -13315,7 +13315,7 @@ $("<div><div id='outer' class='ui-btn ui-btn-corner-all ui-btn-inline ui-shadow 
 					$ (document).unbind ("touchstart.virtualgrid");
 				}
 			}
-			// save preve position information.
+			// save previous position information.
 			widget._prevPos = curWindowTop;
 		},
 
