@@ -1962,7 +1962,7 @@ $.event.special.swipe = {
 
 		// prefer window orientation to the calculation based on screensize as
 		// the actual screen resize takes place before or after the orientation change event
-		// has been fired depending on implementation (e.g. Android 2.3 is before, iphone after).
+		// has been fired depending on implementation (e.g. Android 2.3 is before, iPhone after).
 		// More testing is required to determine if a more reliable method of determining the new screensize
 		// is possible when orientationchange is fired. (e.g., use media queries + element + opacity)
 		if ( $.support.orientation ) {
