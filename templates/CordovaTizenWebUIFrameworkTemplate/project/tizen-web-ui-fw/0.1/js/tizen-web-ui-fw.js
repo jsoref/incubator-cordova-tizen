@@ -1345,7 +1345,7 @@
 			var svh = [],
 				d;
 			this._$clip.parents( '.ui-scrollview-clip' ).each( function () {
-				d = $( this ).jqmData( 'circulaview' );
+				d = $( this ).jqmData( 'circularview' );
 				if ( d ) {
 					svh.unshift( d );
 				}
