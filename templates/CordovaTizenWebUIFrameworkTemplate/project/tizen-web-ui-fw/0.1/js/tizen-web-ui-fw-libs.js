@@ -1962,7 +1962,7 @@ $.event.special.swipe = {
 
 		// prefer window orientation to the calculation based on screensize as
 		// the actual screen resize takes place before or after the orientation change event
-		// has been fired depending on implementation (e.g. android 2.3 is before, iphone after).
+		// has been fired depending on implementation (e.g. Android 2.3 is before, iphone after).
 		// More testing is required to determine if a more reliable method of determining the new screensize
 		// is possible when orientationchange is fired. (e.g., use media queries + element + opacity)
 		if ( $.support.orientation ) {
@@ -2503,7 +2503,7 @@ $.widget( "mobile.page", $.mobile.widget, {
 
 		pushStateEnabled: true,
 
-		// turn of binding to the native orientationchange due to android orientation behavior
+		// turn of binding to the native orientationchange due to Android orientation behavior
 		orientationChangeEnabled: true,
 
 		// Support conditions that must be met in order to proceed
@@ -8120,7 +8120,7 @@ $( document ).bind( "pagecreate", function( event ) {
 		window.scrollTo( 0, 1 );
 
 		// if defaultHomeScroll hasn't been set yet, see if scrollTop is 1
-		// it should be 1 in most browsers, but android treats 1 as 0 (for hiding addr bar)
+		// it should be 1 in most browsers, but Android treats 1 as 0 (for hiding addr bar)
 		// so if it's 1, use 0 from now on
 		$.mobile.defaultHomeScroll = ( !$.support.scrollTop || $(window).scrollTop() === 1 ) ? 0 : 1;
 
