@@ -1033,7 +1033,7 @@ a.ui-link-inherit {
 .ui-icon-ctrlbar-receive,
 .ui-icon-ctrlbar-reply,
 .ui-icon-ctrlbar-save,
-.ui-icon-ctrlbar-save_to_calender,
+.ui-icon-ctrlbar-save_to_calendar,
 .ui-icon-ctrlbar-scrap,
 .ui-icon-ctrlbar-search,
 .ui-icon-ctrlbar-send,
@@ -1285,8 +1285,8 @@ a.ui-link-inherit {
 .ui-icon-ctrlbar-save {
   background-image: url(images/controlbar/01_controlbar_icon_save.png);
 }
-.ui-icon-ctrlbar-save_to_calender {
-  background-image: url(images/controlbar/01_controlbar_icon_save_to_calender.png);
+.ui-icon-ctrlbar-save_to_calendar {
+  background-image: url(images/controlbar/01_controlbar_icon_save_to_calendar.png);
 }
 .ui-icon-ctrlbar-scrap {
   background-image: url(images/controlbar/01_controlbar_icon_scrap.png);
