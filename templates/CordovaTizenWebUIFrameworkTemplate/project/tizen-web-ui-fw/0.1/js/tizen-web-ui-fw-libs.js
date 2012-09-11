@@ -3011,7 +3011,7 @@ $.widget( "mobile.page", $.mobile.widget, {
 		//define first selector to receive focus when a page is shown
 		focusable = "[tabindex],a,button:visible,select:visible,input",
 
-		//queue to hold simultanious page transitions
+		//queue to hold simultaneous page transitions
 		pageTransitionQueue = [],
 
 		//indicates whether or not page is in process of transitioning
