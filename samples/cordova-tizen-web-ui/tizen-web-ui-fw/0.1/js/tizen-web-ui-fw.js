@@ -3817,7 +3817,7 @@ jQuery.extend( jQuery.mobile.tizen,
 		},
 
 		_handleDragStart: function ( e, ex, ey ) {
-			// Stop any scrolling of elements in our parent hierarcy.
+			// Stop any scrolling of elements in our parent hierarchy.
 			$.each( this._getScrollHierarchy(), function (i, sv) {
 				sv._stopMScroll();
 			});
