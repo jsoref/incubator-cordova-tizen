@@ -4251,7 +4251,7 @@ $.widget( "mobile.page", $.mobile.widget, {
 				resolutionUrl = isPath ? location.href : $.mobile.getDocumentUrl();
 			hash = isPath ? hash.replace( "#", "" ) : hash;
 
-			// propulate the hash when its not available
+			// populate the hash when its not available
 			state = self.state();
 
 			// make the hash absolute with the current href
