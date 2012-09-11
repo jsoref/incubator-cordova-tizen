@@ -10103,7 +10103,7 @@ $("<div><div id='hsvpicker' class='ui-hsvpicker'>" +
 				numRows,
 				rowsClass,
 				themeClass,
-				klass,
+				clazz,
 				o = $.extend( {grid: null} ),
 				$kids = el.find( "div" ).eq( 0 ).children().children(),
 				letter,
@@ -10169,11 +10169,11 @@ $("<div><div id='hsvpicker' class='ui-hsvpicker'>" +
 			// for each ui-grid-a element, add a class ui-option-header-row-M
 			// to it, where M is the xpath position() of the div
 	/*        el.find(gridRowSelector).each(function (index) {
-	            var klass = 'ui-option-header-row-' + (index + 1);
-	            $(this).removeClass(klass).addClass(klass);
+	            var clazz = 'ui-option-header-row-' + (index + 1);
+	            $(this).removeClass(clazz).addClass(clazz);
 	        });*/
-			klass = 'ui-option-header-row-' + ( numRows );
-			el.find( "div" ).eq( 0 ).removeClass( klass ).addClass( klass );
+			clazz = 'ui-option-header-row-' + ( numRows );
+			el.find( "div" ).eq( 0 ).removeClass( clazz ).addClass( clazz );
 
 			// redraw the buttons (now that the optionheader has the right
 			// swatch)
@@ -10181,10 +10181,10 @@ $("<div><div id='hsvpicker' class='ui-hsvpicker'>" +
 				$( this ).attr( 'data-' + $.mobile.ns + 'theme', theme );
 
 				// hack the class of the button to remove the old swatch
-				var klass = $( this ).attr( 'class' );
-				klass = klass.replace(/ui-btn-up-\w{1}\s*/, '');
-				klass = klass + ' ui-btn-up-' + theme;
-				$( this ).attr( 'class', klass );
+				var clazz = $( this ).attr( 'class' );
+				clazz = clazz.replace(/ui-btn-up-\w{1}\s*/, '');
+				clazz = clazz + ' ui-btn-up-' + theme;
+				$( this ).attr( 'class', clazz );
 			});
 		},
 
