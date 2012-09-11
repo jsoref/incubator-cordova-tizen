@@ -3756,7 +3756,7 @@ $.widget( "mobile.page", $.mobile.widget, {
 		// to true, *OR*, pass it in as an option when they manually call changePage().
 		// It should be noted that our default transition animations assume that the
 		// formPage and toPage are different elements, so they may behave unexpectedly.
-		// It is up to the developer that turns on the allowSamePageTransitiona option
+		// It is up to the developer that turns on the allowSamePageTransition option
 		// to either turn off transition animations, or make sure that an appropriate
 		// animation transition is used.
 		if( fromPage && fromPage[0] === toPage[0] && !settings.allowSamePageTransition ) {
