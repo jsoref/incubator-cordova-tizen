@@ -105,4 +105,4 @@ the Cordova Legacy App slightly adapted to tizen :
     config.xml that is granting all tizen related features as most of them are required by the Cordova JavaScript lib
     
     there will be more sample soon :
-    (actually tizen sample ported to phone gap when is makes sense, first should be contacts samples)
+    (actually tizen sample ported to PhoneGap when is makes sense, first should be contacts samples)
