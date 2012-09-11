@@ -10381,7 +10381,7 @@ $("<div><div id='hsvpicker' class='ui-hsvpicker'>" +
  *		Pagecontrol widget uses <div> element as an element itself. It takes following attributes.
  *
  *		data-role:	This widget must have 'pagecontrol' as data-role value.
- *		data-max:	Maximum nimber of pagecontrol bullets. This property must not exceed 10.
+ *		data-max:	Maximum number of pagecontrol bullets. This property must not exceed 10.
  *		data-initVal:	Initially selected value of the pagecontrol widget. Must between 1 and data-max. If this attribute is not given, initial value is set to 1.
  *
  * APIs:
