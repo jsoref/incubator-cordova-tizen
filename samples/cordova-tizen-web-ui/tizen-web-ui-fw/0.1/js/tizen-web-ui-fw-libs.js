@@ -1582,7 +1582,7 @@ function getSpecialEventObject( eventType ) {
 						// event. Unfortunately, some platforms like iOS don't dispatch scroll
 						// events until *AFTER* the user lifts their finger (touchend). This means
 						// we need to watch both scroll and touchmove events to figure out whether
-						// or not a scroll happenens before the touchend event is fired.
+						// or not a scroll happened before the touchend event is fired.
 
 						.bind( "touchmove", handleTouchMove )
 						.bind( "scroll", handleScroll );
