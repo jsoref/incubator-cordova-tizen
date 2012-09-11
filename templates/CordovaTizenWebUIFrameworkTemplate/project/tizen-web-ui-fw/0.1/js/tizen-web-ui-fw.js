@@ -14522,7 +14522,7 @@ Globalize.cultures[ "default" ] = {
 			// optional fields for each calendar:
 			/*
 			monthsGenitive:
-				Same as months but used when the day preceeds the month.
+				Same as months but used when the day precedes the month.
 				Omit if the culture has no genitive distinction in month names.
 				For an explanation of genitive months, see http://blogs.msdn.com/michkap/archive/2004/12/25/332259.aspx
 			convert:
