@@ -14374,7 +14374,7 @@ Globalize.cultures[ "default" ] = {
 	// neutral, generic culture information for the language it is using.
 	// This is not always a simple matter of the string before the dash.
 	// For example, the "zh-Hans" culture is netural (Simplified Chinese).
-	// And the "zh-SG" culture is Simplified Chinese in Singapore, whose lanugage
+	// And the "zh-SG" culture is Simplified Chinese in Singapore, whose language
 	// field is "zh-CHS", not "zh".
 	// This field should be used to navigate from a specific culture to it's
 	// more general, neutral culture. If a culture is already as general as it
