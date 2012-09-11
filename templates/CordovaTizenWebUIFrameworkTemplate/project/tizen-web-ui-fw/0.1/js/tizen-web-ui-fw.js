@@ -7299,7 +7299,7 @@ $("<div><div id='hsvpicker' class='ui-hsvpicker'>" +
  *
  * APIs
  *
- *  add(image_file): add the image (parameter: url of iamge)
+ *  add(image_file): add the image (parameter: url of image)
  *  del(image_index): delete the image (parameter: index of image)
  *  refresh(): refresh the widget, should be called after add or del.
  *
