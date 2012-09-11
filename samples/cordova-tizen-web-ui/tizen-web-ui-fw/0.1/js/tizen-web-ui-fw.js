@@ -852,7 +852,7 @@
 //	<li>Hetty</li>
 // </ul>
 //
-// with each divider occuring twice.
+// with each divider occurring twice.
 //
 // Options:
 //
