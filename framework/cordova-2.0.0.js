@@ -5244,7 +5244,7 @@ var saveToDevice = function(contact) {
         // if this is an update, re-initialize org attributes
         var organization = contact.organizations[0];
 
-         tizenContact.organization = new tizen.ContacOrganization({
+         tizenContact.organization = new tizen.ContactOrganization({
              name:          organization.name,
              department:    organization.department,
              office:        "",
