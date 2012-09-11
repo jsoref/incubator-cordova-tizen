@@ -1993,12 +1993,12 @@ $.event.special.swipe = {
 
 	var throttle = 250,
 		handler = function() {
-			curr = ( new Date() ).getTime();
-			diff = curr - lastCall;
+			cur = ( new Date() ).getTime();
+			diff = cur - lastCall;
 
 			if ( diff >= throttle ) {
 
-				lastCall = curr;
+				lastCall = cur;
 				$( this ).trigger( "throttledresize" );
 
 			} else {
@@ -2013,7 +2013,7 @@ $.event.special.swipe = {
 		},
 		lastCall = 0,
 		heldCall,
-		curr,
+		cur,
 		diff;
 })();
 

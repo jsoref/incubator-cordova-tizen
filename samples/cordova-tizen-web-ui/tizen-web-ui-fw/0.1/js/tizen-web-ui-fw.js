@@ -15160,10 +15160,10 @@ getEraYear = function( date, cal, era, sortable ) {
 		if ( year < 100 ) {
 			var now = new Date(),
 				era = getEra( now ),
-				curr = getEraYear( now, cal, era ),
+				cur = getEraYear( now, cal, era ),
 				twoDigitYearMax = cal.twoDigitYearMax;
 			twoDigitYearMax = typeof twoDigitYearMax === "string" ? new Date().getFullYear() % 100 + parseInt( twoDigitYearMax, 10 ) : twoDigitYearMax;
-			year += curr - ( curr % 100 );
+			year += cur - ( cur % 100 );
 			if ( year > twoDigitYearMax ) {
 				year -= 100;
 			}
