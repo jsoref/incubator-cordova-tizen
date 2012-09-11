@@ -1591,7 +1591,7 @@
 //
 //     color: String; initial color can be specified in html
 //            using the data-color="#ff00ff" attribute or
-//            when constructed in javascript, eg :
+//            when constructed in javascript, e.g. :
 //                $("#mycolorpalette").colorpalette({ color: "#ff00ff" });
 //            where the html might be :
 //                <div id="mycolorpalette"></div>
@@ -1618,7 +1618,7 @@
  *     data-role: Myst have 'colorpalette'.
  *     data-color: String; initial color can be specified in html
  *            using the data-color="#ff00ff" attribute or
- *            when constructed in javascript, eg :
+ *            when constructed in javascript, e.g. :
  *                $("#mycolorpalette").colorpalette({ color: "#ff00ff" });
  *            where the html might be :
  *                <div id="mycolorpalette"></div>
@@ -2096,7 +2096,7 @@ $("<div><div id='colorpicker' class='ui-colorpicker'>" +
 //      of the hsvpicker ( see hsvpicker ).
 //      initial color can be specified in html using the
 //      data-color="#ff00ff" attribute or when constructed in
-//      javascript, eg :
+//      javascript, e.g. :
 //        $( "#mycolorpickerbutton" ).colorpickerbutton( { color: "#ff00ff" } );
 //      where the html might be :
 //        <div id="colorpickerbutton"></div>
@@ -2104,7 +2104,7 @@ $("<div><div id='colorpicker' class='ui-colorpicker'>" +
 //        $( "#mycolorpickerbutton" ).colorpickerbutton( "option", "color", "#ABCDEF" );
 //      Default: "#1a8039"
 //
-//   buttonMarkup: String; markup to use for the close button on the popupwindow, eg :
+//   buttonMarkup: String; markup to use for the close button on the popupwindow, e.g. :
 //          $( "#mycolorpickerbutton" ).colorpickerbutton( "option","buttonMarkup",
 //           "<a href='#' data-role='button'>ignored</a>" );
 //
@@ -2283,7 +2283,7 @@ $("<div><div id='colorpickerbutton'>" +
 //
 //     color: String; the initial color can be specified in html using
 //            the data-color="#ff00ff" attribute or when constructed
-//            in javascipt eg
+//            in javascript e.g.
 //                $("#mycolortitle").colortitle({ color: "#ff00ff" });
 //            where the html might be :
 //                <div id="mycolortitle"></div>
@@ -7017,7 +7017,7 @@ function range( low, high, step ) {
 //
 //     color: String; the initial color can be specified in html using the
 //            data-color="#ff00ff" attribute or when constructed
-//            in javascript, eg
+//            in javascript, e.g.
 //                $( "#myhsvpicker" ).hsvpicker({ color: "#ff00ff" });
 //            where the html might be :
 //                <div id="myhsvpicker"></div>
@@ -10713,7 +10713,7 @@ $("<div><div id='pagelist' class='ui-pagelist' data-role='popupwindow' data-shad
 //
 // To apply, add the attribute data-role="popupwindow" to a <div> element inside
 // a page. Alternatively, call popupwindow()
-// on an element, eg :
+// on an element, e.g. :
 //
 //     $("#mypopupwindowContent").popupwindow();
 // where the html might be :
