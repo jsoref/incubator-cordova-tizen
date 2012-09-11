@@ -1591,7 +1591,7 @@
 //
 //     color: String; initial color can be specified in html
 //            using the data-color="#ff00ff" attribute or
-//            when constructed in javascript, e.g. :
+//            when constructed in JavaScript, e.g. :
 //                $("#mycolorpalette").colorpalette({ color: "#ff00ff" });
 //            where the html might be :
 //                <div id="mycolorpalette"></div>
@@ -1618,7 +1618,7 @@
  *     data-role: Myst have 'colorpalette'.
  *     data-color: String; initial color can be specified in html
  *            using the data-color="#ff00ff" attribute or
- *            when constructed in javascript, e.g. :
+ *            when constructed in JavaScript, e.g. :
  *                $("#mycolorpalette").colorpalette({ color: "#ff00ff" });
  *            where the html might be :
  *                <div id="mycolorpalette"></div>
@@ -2096,7 +2096,7 @@ $("<div><div id='colorpicker' class='ui-colorpicker'>" +
 //      of the hsvpicker ( see hsvpicker ).
 //      initial color can be specified in html using the
 //      data-color="#ff00ff" attribute or when constructed in
-//      javascript, e.g. :
+//      JavaScript, e.g. :
 //        $( "#mycolorpickerbutton" ).colorpickerbutton( { color: "#ff00ff" } );
 //      where the html might be :
 //        <div id="colorpickerbutton"></div>
@@ -2283,7 +2283,7 @@ $("<div><div id='colorpickerbutton'>" +
 //
 //     color: String; the initial color can be specified in html using
 //            the data-color="#ff00ff" attribute or when constructed
-//            in javascript e.g.
+//            in JavaScript e.g.
 //                $("#mycolortitle").colortitle({ color: "#ff00ff" });
 //            where the html might be :
 //                <div id="mycolortitle"></div>
@@ -7017,7 +7017,7 @@ function range( low, high, step ) {
 //
 //     color: String; the initial color can be specified in html using the
 //            data-color="#ff00ff" attribute or when constructed
-//            in javascript, e.g.
+//            in JavaScript, e.g.
 //                $( "#myhsvpicker" ).hsvpicker({ color: "#ff00ff" });
 //            where the html might be :
 //                <div id="myhsvpicker"></div>
@@ -10396,7 +10396,7 @@ $("<div><div id='hsvpicker' class='ui-hsvpicker'>" +
  *
  * Events:
  *
- *		change:	Raised when a value is changed, by setting it by javascript, or by user's touch event.
+ *		change:	Raised when a value is changed, by setting it by JavaScript, or by user's touch event.
  *
  * Examples:
  *
@@ -12220,7 +12220,7 @@ $("<div><div id='outer' class='ui-ctxpopup'>" +
  *            default: 'c'
  *     popupEnabled: boolean; controls whether the popup is displayed or not
  *                   specify if the popup is enabled using the 'data-popupEnabled' attribute
- *                   set from javascript using .tizenslider('option','popupEnabled',newValue)
+ *                   set from JavaScript using .tizenslider('option','popupEnabled',newValue)
  *
  * Events:
  *     changed: triggers when the value is changed (rather than when the handle is moved)
@@ -12236,7 +12236,7 @@ $("<div><div id='outer' class='ui-ctxpopup'>" +
  *         <input id="mySlider2" type="range" name="slider" value="77" min="0" max="777" />
  *     </div>
  *
- *     // disable popup from javascript
+ *     // disable popup from JavaScript
  *     $('#mySlider').tizenslider('option','popupEnabled',false);
  *
  *     // from buttons
