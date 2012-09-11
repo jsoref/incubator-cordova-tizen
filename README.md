@@ -80,7 +80,7 @@ that could become the source for the apache incubator-cordova-tizen that is unti
 framework/
 
     - Cordova icon, for Tizen we are not quite sure about the size to use...now it is a 64*64 png
-    - inedx html, a starter html file 
+    - index html, a starter html file 
     - tizen.css, for notifications UI
     - sounds/ beep.wav ,, a file that should be used by notifications to play a "beep"
 
