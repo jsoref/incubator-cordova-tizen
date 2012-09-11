@@ -7250,8 +7250,8 @@ $.fn.controlgroup = function( options ) {
 
 		// TODO: This should be moved out to the closure
 		// otherwise it is redefined each time controlgroup() is called
-		function flipClasses( els ) {
-			els.removeClass( "ui-btn-corner-all ui-shadow" )
+		function flipClasses( elts ) {
+			elts.removeClass( "ui-btn-corner-all ui-shadow" )
 				.eq( 0 ).addClass( flCorners[ 0 ] )
 				.end()
 				.last().addClass( flCorners[ 1 ] ).addClass( "ui-controlgroup-last" );
