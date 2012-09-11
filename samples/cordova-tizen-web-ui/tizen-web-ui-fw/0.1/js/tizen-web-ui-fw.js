@@ -4863,9 +4863,9 @@ jQuery.extend( jQuery.mobile.tizen,
 	}
 
 	function tiUpdate() {
-		var coll = this.nodes;
-		jQuery.tmpl( null, null, null, this).insertBefore( coll[0] );
-		jQuery( coll ).remove();
+		var col = this.nodes;
+		jQuery.tmpl( null, null, null, this).insertBefore( col[0] );
+		jQuery( col ).remove();
 	}
 })( jQuery );
 /* ***************************************************************************
