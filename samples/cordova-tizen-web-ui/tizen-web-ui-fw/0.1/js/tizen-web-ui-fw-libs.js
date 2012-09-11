@@ -3402,7 +3402,7 @@ $.widget( "mobile.page", $.mobile.widget, {
 		}
 
 			// The absolute version of the URL minus any dialog/subpage params.
-			// In otherwords the real URL of the page to be loaded.
+			// In other words the real URL of the page to be loaded.
 		var fileUrl = path.getFilePath( absUrl ),
 
 			// The version of the Url actually stored in the data-url attribute of
