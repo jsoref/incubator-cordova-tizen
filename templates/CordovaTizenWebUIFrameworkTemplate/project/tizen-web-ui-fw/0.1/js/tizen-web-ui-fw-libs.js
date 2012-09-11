@@ -2809,7 +2809,7 @@ $.widget( "mobile.page", $.mobile.widget, {
 				return path.parseUrl( url ).protocol !== "";
 			},
 
-			//Turn the specified realtive URL into an absolute one. This function
+			//Turn the specified relative URL into an absolute one. This function
 			//can handle all relative variants (protocol, site, document, query, fragment).
 			makeUrlAbsolute: function( relUrl, absUrl ) {
 				if ( !path.isRelativeUrl( relUrl ) ) {
