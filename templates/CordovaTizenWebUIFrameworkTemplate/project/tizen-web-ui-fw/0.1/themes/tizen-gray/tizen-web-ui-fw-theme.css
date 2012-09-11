@@ -806,7 +806,7 @@ a.ui-link-inherit {
 .ui-corner-none {
   -moz-border-radius: 0;
   -webkit-border-radius: 0;
-  bordert-radius: 0;
+  border-radius: 0;
 }
 /* Interaction cues
 -----------------------------------------------------------------------------------------------------------*/
@@ -961,7 +961,7 @@ a.ui-link-inherit {
   height: 40px;
   -moz-border-radius: 20px;
   -webkit-border-radius: 20px;
-  bordert-radius: 20px;
+  border-radius: 20px;
 }
 /* Add ctrl bar *//* TIZEN Default Footer */
 .ui-icon-ctrlbar-account_sign-up,
@@ -1451,7 +1451,7 @@ a.ui-link-inherit {
 .ui-btn-corner-all {
   -moz-border-radius: 0.2em;
   -webkit-border-radius: 0.2em;
-  bordert-radius: 0.2em;
+  border-radius: 0.2em;
 }
 /* radius clip workaround for cleaning up corner trapping */
 .ui-corner-tl,
@@ -3149,7 +3149,7 @@ Built by David Kaneda and maintained by Jonathan Stark.
 .ui-btn-corner-all.ui-btn-corner-circle {
   -moz-border-radius: 1em;
   -webkit-border-radius: 1em;
-  bordert-radius: 1em;
+  border-radius: 1em;
 }
 /* No BG button : data-iconbg = "nobg" */
 .ui-btn.ui-btn-icon-nobg, .ui-btn .ui-btn-icon-nobg {
@@ -3504,7 +3504,7 @@ Built by David Kaneda and maintained by Jonathan Stark.
 .ui-checkbox .ui-btn-corner-all, .ui-radio .ui-btn-corner-all {
   -moz-border-radius: 0;
   -webkit-border-radius: 0;
-  bordert-radius: 0;
+  border-radius: 0;
 }
 .ui-checkbox .ui-btn-inner, .ui-radio .ui-btn-inner {
   border-top: 0;
@@ -3924,7 +3924,7 @@ textarea.ui-input-text {
 .input-search-bar .ui-corner-all {
   -moz-border-radius: 0.3em;
   -webkit-border-radius: 0.3em;
-  bordert-radius: 0.3em;
+  border-radius: 0.3em;
 }
 .input-search-bar .ui-input-search {
   font-size: 0.8888888888888888rem;
