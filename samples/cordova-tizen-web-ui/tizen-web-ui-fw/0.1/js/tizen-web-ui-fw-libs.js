@@ -2691,7 +2691,7 @@ $.widget( "mobile.page", $.mobile.widget, {
 
 ( function( $, undefined ) {
 
-	//define vars for interal use
+	//define vars for internal use
 	var $window = $( window ),
 		$html = $( 'html' ),
 		$head = $( 'head' ),
