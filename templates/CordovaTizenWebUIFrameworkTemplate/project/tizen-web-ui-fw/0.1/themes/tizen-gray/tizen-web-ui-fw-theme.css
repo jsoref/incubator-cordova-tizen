@@ -7614,7 +7614,7 @@ ul.ui-virtual-list-container > ul.position_absolute {
  * the values below are for the group index
  */
 /*
- * padding here set to zero - otherwise the list scrolls underneith the top heading and can be seen above it
+ * padding here set to zero - otherwise the list scrolls underneath the top heading and can be seen above it
  */
 .ui-content.ui-scrollview-clip {
   padding: 0;
