@@ -8014,7 +8014,7 @@ $("<div><div id='hsvpicker' class='ui-hsvpicker'>" +
 //
 // The control panel itself should be defined as a form element.
 // By default, the control panel will be hidden when the listview is
-// initialised, unless you supply mode="edit" as a
+// initialized, unless you supply mode="edit" as a
 // data-listview-controls option (when using the default modes). If you
 // want the control panel to be visible in some mode other than
 // the default, use a data-listviewcontrols-show-in="<mode>" attribute
@@ -12464,7 +12464,7 @@ $("<div><div id='outer' class='ui-ctxpopup'>" +
 		}
 	});
 
-	// stop jqm from initialising sliders
+	// stop jqm from initializing sliders
 	$(document).bind("pagebeforecreate", function ( e ) {
 		if ($.data(window, "jqmSliderInitSelector") === undefined ) {
 			$.data(window, "jqmSliderInitSelector",
@@ -12473,7 +12473,7 @@ $("<div><div id='outer' class='ui-ctxpopup'>" +
 		}
 	});
 
-	// initialise sliders with our own slider
+	// initialize sliders with our own slider
 	$(document).bind("pagecreate", function ( e ) {
 		var jqmSliderInitSelector = $.data(window, "jqmSliderInitSelector");
 		$(e.target).find(jqmSliderInitSelector).not('select').tizenslider();
