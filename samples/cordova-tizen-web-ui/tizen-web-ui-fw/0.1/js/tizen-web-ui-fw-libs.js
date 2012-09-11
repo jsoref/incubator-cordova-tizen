@@ -3988,7 +3988,7 @@ $.widget( "mobile.page", $.mobile.widget, {
 
 			var link = findClosestLink( event.target );
 
-			// If there is no link associated with the click or its not a left
+			// If there is no link associated with the click or it isn't a left
 			// click we want to ignore the click
 			if ( !link || event.which > 1) {
 				return;
@@ -4054,7 +4054,7 @@ $.widget( "mobile.page", $.mobile.widget, {
 				// requests to go through our page loading logic.
 				isCrossDomainPageLoad = ( $.mobile.allowCrossDomainPages && documentUrl.protocol === "file:" && href.search( /^https?:/ ) != -1 ),
 
-				//check for protocol or rel and its not an embedded page
+				//check for protocol or rel and it isn't an embedded page
 				//TODO overlap in logic from isExternal, rel=external check should be
 				//     moved into more comprehensive isExternalLink
 				isExternal = useDefaultUrlHandling || ( path.isExternal( href ) && !isCrossDomainPageLoad );
@@ -4251,7 +4251,7 @@ $.widget( "mobile.page", $.mobile.widget, {
 				resolutionUrl = isPath ? location.href : $.mobile.getDocumentUrl();
 			hash = isPath ? hash.replace( "#", "" ) : hash;
 
-			// populate the hash when its not available
+			// populate the hash when it isn't available
 			state = self.state();
 
 			// make the hash absolute with the current href
@@ -4279,7 +4279,7 @@ $.widget( "mobile.page", $.mobile.widget, {
 		onPopState: function( e ) {
 			var poppedState = e.originalEvent.state, holdnexthashchange = false;
 
-			// if there's no state its not a popstate we care about, ie chrome's initial popstate
+			// if there's no state it isn't a popstate we care about, ie chrome's initial popstate
 			// or forward popstate
 			if( poppedState ) {
 				// disable any hashchange triggered by the browser
