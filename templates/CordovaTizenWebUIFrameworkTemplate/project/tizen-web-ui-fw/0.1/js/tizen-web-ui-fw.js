@@ -5984,7 +5984,7 @@ function range( low, high, step ) {
  * Displays vertical multi-level list.
  *
  * To apply, add the attribute data-expandable="true" and id="parentid" to a <li> element for parent list item
- * and add the arrribute data-expanded-by="parentid" to a <li> element for child list item.
+ * and add the attribute data-expanded-by="parentid" to a <li> element for child list item.
  *
  * HTML Attributes:
  *		data-expandable: Parent list item must have 'true' value for this attribute
