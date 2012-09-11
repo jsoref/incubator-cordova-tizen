@@ -94,7 +94,7 @@ tizen SDK Samples/
 
 mobile-spec/
 
-a tizen SDK eclipse project (to be imported using Eclipse import wizard)
+a tizen SDK Eclipse project (to be imported using Eclipse import wizard)
 
 taken from after 2.0.0 tag
 
