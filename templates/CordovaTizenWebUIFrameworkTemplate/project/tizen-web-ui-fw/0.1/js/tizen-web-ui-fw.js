@@ -15835,7 +15835,7 @@ Globalize.parseFloat = function( value, radix, cultureSelector ) {
 			p += "." + fraction;
 		}
 		if ( exponent !== null ) {
-			// exponent itself may have a number patternd
+			// exponent itself may have a number pattern
 			var expSignInfo = parseNegativePattern( exponent, nf, "-n" );
 			p += "e" + ( expSignInfo[0] || "+" ) + expSignInfo[ 1 ];
 		}
