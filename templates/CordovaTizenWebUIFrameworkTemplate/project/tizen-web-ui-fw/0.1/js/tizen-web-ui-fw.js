@@ -11681,7 +11681,7 @@ $("<div><div id='outer' class='ui-ctxpopup'>" +
  * <input type="search" name="search" id="search1" value=""  />
  *
  * Searchbar can be inserted 3 cases
- * content : seachbar behave same as content element
+ * content : searchbar behave same as content element
  * header : searchbar placed below title(header), It doesn't move when scrolling page
  * inside optionheader : Searchbar placed inside optionheader, searchbar can be seen only expand optionheader
  *
