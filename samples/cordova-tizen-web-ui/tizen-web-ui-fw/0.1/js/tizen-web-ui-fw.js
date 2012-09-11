@@ -11728,7 +11728,7 @@ $("<div><div id='outer' class='ui-ctxpopup'>" +
 				cancelbtn,
 				defaultText,
 				defaultTextClass,
-				trimedText,
+				trimmedText,
 				newClassName,
 				newStyle,
 				newDiv,
@@ -11910,10 +11910,10 @@ $("<div><div id='outer' class='ui-ctxpopup'>" +
 
 			if ( ( defaultText != undefined ) && ( defaultText.length > 0 ) ) {
 				defaultTextClass = "ui-input-default-text";
-				trimedText = defaultText.replace(/\s/g, "");
+				trimmedText = defaultText.replace(/\s/g, "");
 
 				/* Make new class for default text string */
-				newClassName = defaultTextClass + "-" + trimedText;
+				newClassName = defaultTextClass + "-" + trimmedText;
 				newStyle = $( "<style>" + '.' + newClassName + ":after" + "{content:" + "'" + defaultText + "'" + "}" + "</style>" );
 				$( 'html > head' ).append( newStyle );
 
