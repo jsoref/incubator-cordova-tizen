@@ -102,7 +102,7 @@ the Cordova Legacy App slightly adapted to tizen :
     notifications/index.html is loading the tizen.css file for notifications
     (waiting to generate this from the source code)
     
-    config.xml that is granting all tizen related features as mùmost of them are required by the Cordova JavaScript lib
+    config.xml that is granting all tizen related features as most of them are required by the Cordova JavaScript lib
     
     there will be more sample soon :
     (actually tizen sample ported to phone gap when is makes sense, first should be contacts samples)
