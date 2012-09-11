@@ -79,7 +79,7 @@ that could become the source for the apache incubator-cordova-tizen that is unti
 
 framework/
 
-    - Cordova icon, for tizen we are not quite sure about the size to use...now it is a 64*64 png
+    - Cordova icon, for Tizen we are not quite sure about the size to use...now it is a 64*64 png
     - inedx html, a starter html file 
     - tizen.css, for notifications UI
     - sounds/ beep.wav ,, a file that should be used by notifications to play a "beep"
@@ -94,15 +94,15 @@ tizen SDK Samples/
 
 mobile-spec/
 
-a tizen SDK Eclipse project (to be imported using Eclipse import wizard)
+a Tizen SDK Eclipse project (to be imported using Eclipse import wizard)
 
 taken from after 2.0.0 tag
 
-the Cordova Legacy App slightly adapted to tizen :
+the Cordova Legacy App slightly adapted to Tizen :
     notifications/index.html is loading the tizen.css file for notifications
     (waiting to generate this from the source code)
     
-    config.xml that is granting all tizen related features as most of them are required by the Cordova JavaScript lib
+    config.xml that is granting all Tizen related features as most of them are required by the Cordova JavaScript lib
     
     there will be more sample soon :
-    (actually tizen sample ported to PhoneGap when is makes sense, first should be contacts samples)
+    (actually Tizen sample ported to PhoneGap when is makes sense, first should be contacts samples)
