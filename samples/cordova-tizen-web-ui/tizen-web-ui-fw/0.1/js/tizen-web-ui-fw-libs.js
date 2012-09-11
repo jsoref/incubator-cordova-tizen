@@ -4100,7 +4100,7 @@ $.widget( "mobile.page", $.mobile.widget, {
 				//transition is false if it's the first page, undefined otherwise (and may be overridden by default)
 				transition = $.mobile.urlHistory.stack.length === 0 ? "none" : undefined,
 
-				// default options for the changPage calls made after examining the current state
+				// default options for the changePage calls made after examining the current state
 				// of the page and the hash
 				changePageOptions = {
 					transition: transition,
