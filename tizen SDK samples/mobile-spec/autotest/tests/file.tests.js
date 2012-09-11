@@ -3166,7 +3166,7 @@ describe('File API', function() {
                 theWriter,
                 // file content
                 rule = "This is our sentence.",
-                // for iting file length
+                // for writing file length
                 length = rule.length,
                 fail = createFail('FileWriter'),
                 verifier = jasmine.createSpy().andCallFake(function(evt) {
@@ -3215,7 +3215,7 @@ describe('File API', function() {
                 rule = "This is our sentence.",
                 theWriter,
                 fail = createFail('FileWriter'),
-                // for iting file length
+                // for writing file length
                 length = rule.length,
                 verifier = jasmine.createSpy().andCallFake(function(evt) {
                     expect(theWriter.length).toBe(length);
@@ -3264,7 +3264,7 @@ describe('File API', function() {
                 theWriter,
                 // file content
                 rule = '<?xml version="1.0" encoding="UTF-8"?>\n<it prop="ack">\nData\n</it>\n',
-                // for iting file length
+                // for writing file length
                 length = rule.length,
                 verifier = jasmine.createSpy().andCallFake(function(evt) {
                     expect(theWriter.length).toBe(length);
@@ -3301,7 +3301,7 @@ describe('File API', function() {
                 // file content
                 rule = '{ "name": "Guy Incognito", "email": "here@there.com" }',
                 fail = createFail('FileWriter'),
-                // for iting file length
+                // for writing file length
                 length = rule.length,
                 verifier = jasmine.createSpy().andCallFake(function(evt) {
                     expect(theWriter.length).toBe(length);
@@ -3380,7 +3380,7 @@ describe('File API', function() {
                 // file content
                 rule = "There is an exception to every rule.  Except this one.",
                 theWriter,
-                // for iting file length
+                // for writing file length
                 length = rule.length,
                 fail = createFail('FileWriter'),
                 verifier = jasmine.createSpy().andCallFake(function(evt) {
