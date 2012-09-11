@@ -8331,7 +8331,7 @@ $("<div><div id='hsvpicker' class='ui-hsvpicker'>" +
  *			Remove a button that is pointed by index. (number : index of button)
  *		length ( void )
  *			: Get a number of buttons.
- *		foucsIn ( void )
+ *		focusIn ( void )
  *			: This method change a status to 'focusin'.
  *			This status is able to manage a widget.
  *		focusOut ( void )
@@ -8703,7 +8703,7 @@ $("<div><div id='hsvpicker' class='ui-hsvpicker'>" +
 			tempBlock.width( textWidth - ( self._reservedWidth ) );
 			tempBlock.attr( "disabled", true );
 			$view.find( "label" ).after( tempBlock );
-			// update foucs state
+			// update focus state
 			this._focusStatus = "focusOut";
 		},
 		inputText : function ( message ) {
