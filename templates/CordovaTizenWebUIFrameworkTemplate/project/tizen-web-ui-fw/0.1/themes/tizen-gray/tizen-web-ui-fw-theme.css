@@ -997,7 +997,7 @@ a.ui-link-inherit {
 .ui-icon-ctrlbar-edit,
 .ui-icon-ctrlbar-editor,
 .ui-icon-ctrlbar-eng_eng_result,
-.ui-icon-ctrlbar-exchangs_register,
+.ui-icon-ctrlbar-exchanges_register,
 .ui-icon-ctrlbar-Externalstorage,
 .ui-icon-ctrlbar-favorite,
 .ui-icon-ctrlbar-features,
@@ -1177,8 +1177,8 @@ a.ui-link-inherit {
 .ui-icon-ctrlbar-eng_eng_result {
   background-image: url(images/controlbar/01_controlbar_icon_eng_eng_result.png);
 }
-.ui-icon-ctrlbar-exchangs_register {
-  background-image: url(images/controlbar/01_controlbar_icon_exchangs_register.png);
+.ui-icon-ctrlbar-exchanges_register {
+  background-image: url(images/controlbar/01_controlbar_icon_exchanges_register.png);
 }
 .ui-icon-ctrlbar-Externalstorage {
   background-image: url(images/controlbar/01_controlbar_icon_Externalstorage.png);
