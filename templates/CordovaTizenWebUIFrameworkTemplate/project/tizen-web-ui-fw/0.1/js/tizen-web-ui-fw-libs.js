@@ -7739,7 +7739,7 @@ $.mobile.fixedToolbars = (function() {
 		});
 
 
-	// When a collapsiable is hidden or shown we need to trigger the fixed toolbar to reposition itself (#1635)
+	// When a collapsible is hidden or shown we need to trigger the fixed toolbar to reposition itself (#1635)
 	$( ".ui-collapsible-contain" ).live( "collapse expand", showEventCallback );
 
 	// element.getBoundingClientRect() is broken in iOS 3.2.1 on the iPad. The
