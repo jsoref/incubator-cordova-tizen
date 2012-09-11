@@ -69,7 +69,7 @@ describe('FileTransfer', function() {
     };
     // end copied from file.tests.js
 
-    it("should exist and be constructable", function() {
+    it("should exist and be constructible", function() {
         var ft = new FileTransfer();
         expect(ft).toBeDefined();
     });
