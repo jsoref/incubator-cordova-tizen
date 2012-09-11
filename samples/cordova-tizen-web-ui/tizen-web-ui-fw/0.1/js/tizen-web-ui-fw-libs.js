@@ -3520,7 +3520,7 @@ $.widget( "mobile.page", $.mobile.widget, {
 
 
 					// data-url must be provided for the base tag so resource requests can be directed to the
-					// correct url. loading into a temprorary element makes these requests immediately
+					// correct url. loading into a temporary element makes these requests immediately
 					if( pageElemRegex.test( html )
 							&& RegExp.$1
 							&& dataUrlRegex.test( RegExp.$1 )
