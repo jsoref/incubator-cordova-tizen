@@ -4317,7 +4317,7 @@ $.widget( "mobile.page", $.mobile.widget, {
 	});
 })( jQuery, this );
 /*
-* "transitions" plugin - Page change tranistions
+* "transitions" plugin - Page change transitions
 */
 
 (function( $, window, undefined ) {
